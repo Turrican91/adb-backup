@@ -8,5 +8,8 @@ REM Set path to Android-SDK
 set androidsdk=C:\path\to\sdk\
 
 CLS
+echo.
 echo Aktuelles Datum: 	%backupdate%
 echo ADB-Pfad: 		%androidsdk%platform-tools\adb.exe
+echo.
+echo Sind diese Werte korrekt? (Y/N)
